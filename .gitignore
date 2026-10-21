@@ -1,0 +1,21 @@
+# ---------- 构建产物 ----------
+.pio/
+*.pio.stale2/
+build/
+*.bin
+*.elf
+
+# ---------- 本地临时文件 ----------
+# 测试截图(只保留 docs/ 里精选的)
+/shot*.png
+# PC 侧连接后台用的临时 WiFi profile
+NewEraAdmin-profile.xml
+# Python
+__pycache__/
+*.pyc
+
+# ---------- 编辑器/系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
